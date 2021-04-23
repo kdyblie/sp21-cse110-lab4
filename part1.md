@@ -48,4 +48,40 @@ Part 1b. A Little More of a Challenge...
 
         E. student.courseLoad[0]
 
-    13. 
+    13.
+
+        A. '32' , since integers map to their exact string representation.
+
+        B. 1 , since in subtraction '3' is mapped to is numeric version thus 3 - 2 = 1, .
+
+        C. 3 , since null is converted to 0 by numeric conversion rules.
+
+        D. '3null' , since null maps to its exact string representation
+
+        E. 4 , since true is converted to 1 by numeric conversion rules.
+
+        F. 0 , since false and null is each converted to 0 by numeric conversion rules.
+
+        G. '3undefined' , since undefined maps to its exact string representation.
+
+        H. NaN , since undefined is converted to NaN by numeric conversion rules and '3' - NaN = NaN. subtracting undefined thing.
+
+    14.
+
+        A. true , since string '2' becomes a number 2.
+
+        B. false , since both '2' and '12' are strings and the first character of '2' is greater than the first character of '12'.
+
+        C. true , string '2' becomes a number 2.
+
+        D. false , since === checks the equality without type conversion thus 2 != '2'.
+
+        E. false , since true becomes a number 1 and 1 != 2.
+
+        F. true , since by Boolean conversion rules Boolean(2) is intuitively "non-empty" thus becomes true. The === checks equality without type conversion and Boolean(2) is of type Boolean and so it true.
+
+    15. The == operator is an equality test with type conversion and the operator === is a strict equality operator that checks the equality without type conversion.
+
+    16. In JS file part1b-question16.js
+
+    17.
