@@ -84,4 +84,12 @@ Part 1b. A Little More of a Challenge...
 
     16. In JS file part1b-question16.js
 
-    17.
+    17. The reuslt will be the return of newArr = [2,4,6] , in each iteration of the for loop the function doSomething is called since it is passed in as the callback arguement. Thus each value at at index in the inserted array is ran through the doSomething function and the doubled value is pushed on the new array. Essentially the function doSomething is repeatedly invoked, once in each iteration of the forloop.
+
+    18. In JS file part1b-question18.js
+
+    19.
+        1
+        4
+        3
+        2
