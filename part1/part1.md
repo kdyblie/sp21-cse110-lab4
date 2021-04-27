@@ -50,7 +50,7 @@ Part 1b. A Little More of a Challenge...
 
     13.
 
-        A. '32' , since integers map to their exact string representation.
+        A. '32' , since integers map to their exact string representation. Essentially the + operator is overriden such that addition with a string acts as string concatenation.
 
         B. 1 , since in subtraction '3' is mapped to is numeric version thus 3 - 2 = 1, .
 
