@@ -1,10 +1,10 @@
-DevTools - Debugging
+## DevTools - Debugging
 
  1. The bug is that the program adds two strings resulting in a concatenation of strings instead of conversion to integers and adding those,
 
  2. To fix the bug I would simply use the parseInt function on num1 and num2 so that integers are added instead of string resulting in result being a int and summing the numbers as intended.
 
-DevTools - Network Tab
+## DevTools - Network Tab
 
 3. The name of the new json file is citylots.json
 
